@@ -1,3 +1,3 @@
 # twitter-turkish-preprocess
 
-A light-weight python package to pre-process Turkish Twitter Statuses(Tweets).
+a light-weight python package to pre-process turkish twitter statuses(tweets).
