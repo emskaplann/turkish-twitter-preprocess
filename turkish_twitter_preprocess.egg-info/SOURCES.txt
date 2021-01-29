@@ -1,0 +1,7 @@
+README.md
+setup.py
+turkish-twitter-preprocess/__init__.py
+turkish_twitter_preprocess.egg-info/PKG-INFO
+turkish_twitter_preprocess.egg-info/SOURCES.txt
+turkish_twitter_preprocess.egg-info/dependency_links.txt
+turkish_twitter_preprocess.egg-info/top_level.txt
