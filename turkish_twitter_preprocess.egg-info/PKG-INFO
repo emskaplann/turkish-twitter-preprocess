@@ -1,17 +1,19 @@
 Metadata-Version: 2.1
 Name: turkish-twitter-preprocess
-Version: 0.0.1
-Summary: A light-weight python package to pre-process Turkish Twitter Statuses(Tweets).
+Version: 0.0.5
+Summary: a light-weight python package to pre-process turkish twitter statuses(tweets).
 Home-page: https://github.com/emskaplann/turkish-twitter-preprocess
 Author: Emirhan Kaplan
 Author-email: emskaplann@gmail.com
 License: UNKNOWN
 Description: # twitter-turkish-preprocess
         
-        A light-weight python package to pre-process Turkish Twitter Statuses(Tweets).
+        a light-weight python package to pre-process turkish twitter statuses(tweets).
+        
+Keywords: turkish twitter preprocess
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
+Requires-Python: >=2.7
 Description-Content-Type: text/markdown
