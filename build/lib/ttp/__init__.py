@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import re
-# import emoji
 from string import punctuation, digits
 import itertools
+
+emoji = __import__('emoji')
 
 def lower(text):
     text=re.sub("İ","i",text)
@@ -11,8 +12,8 @@ def lower(text):
     return text
 
 #TODO: translate emojis to turkish
-# def replace_emoji(text):
-#     return emoji.demojize(text, delimiters=(" ", " "))
+def replace_emoji(text):
+    return emoji.demojize(text, delimiters=(":", ":"))
 
 def remove_emoji(text):
     emoji_pattern = re.compile("["
@@ -103,3 +104,6 @@ def preprocess_sentence(sentence, stopwords):
     # sentence = normalize(sentence)
 
     return sentence
+
+# remove_emoji('iyi geceler 🙌')
+# replace_emoji('iyi geceler 🙌')

@@ -1,6 +1,9 @@
 README.md
 setup.py
 ttp/__init__.py
+ttp/emoji.py
+ttp/en_emoji.py
+ttp/unicode_codes/__init__.py
 turkish_twitter_preprocess.egg-info/PKG-INFO
 turkish_twitter_preprocess.egg-info/SOURCES.txt
 turkish_twitter_preprocess.egg-info/dependency_links.txt

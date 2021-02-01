@@ -13,7 +13,7 @@ def lower(text):
 
 #TODO: translate emojis to turkish
 def replace_emoji(text):
-    return emoji.demojize(text, delimiters=(" ", " "))
+    return emoji.demojize(text, delimiters=(":", ":"))
 
 def remove_emoji(text):
     emoji_pattern = re.compile("["
@@ -36,7 +36,6 @@ def remove_emoji(text):
                                u"\ufe0f"  # dingbats
                                u"\u3030"
                                "]+", flags=re.UNICODE)
-    breakpoint()
     return emoji_pattern.sub(r'', text)
 
 def resubComma(text):
@@ -106,5 +105,5 @@ def preprocess_sentence(sentence, stopwords):
 
     return sentence
 
-remove_emoji('iyi geceler 🙌')
-replace_emoji('iyi geceler 🙌')
+# remove_emoji('iyi geceler 🙌')
+# replace_emoji('iyi geceler 🙌')

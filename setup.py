@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="turkish-twitter-preprocess",
-    version="0.0.5",
+    version="0.0.6",
     author="Emirhan Kaplan",
     author_email="emskaplann@gmail.com",
     description="a light-weight python package to pre-process turkish twitter statuses(tweets).",

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: turkish-twitter-preprocess
-Version: 0.0.5
+Version: 0.0.6
 Summary: a light-weight python package to pre-process turkish twitter statuses(tweets).
 Home-page: https://github.com/emskaplann/turkish-twitter-preprocess
 Author: Emirhan Kaplan
