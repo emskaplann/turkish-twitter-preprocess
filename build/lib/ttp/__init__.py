@@ -46,15 +46,15 @@ def vanish_punc(text):
     text = regex.sub(' ', text)
     return text
 
-def replace_emoticon(word):
+def replace_emoticon(word, positive_str="SMILEYPOSITIVE", negative_str="SMILEYNEGATIVE"):
     check_pos = re.findall(r'(?::\)|:-\)|=\)|:D|:d|<3|\(:|:\'\)|\^\^|;\)|\(-:)', word)
     check_neg = re.findall(r'(:-\(|:\(|;\(|;-\(|=\(|:/|:\\|-_-|\):|\)-:)', word)
     if check_pos:
         #word = ":)"
-        word = "SMILEYPOSITIVE"
+        word = positive_str
     elif check_neg:
         #word = ":("
-        word = "SMILEYNEGATIVE"
+        word = negative_str
     return word
 
 def remove_emoticon(text):
