@@ -6,10 +6,10 @@ a light-weight python package to pre-process turkish twitter statuses(tweets).
 this package is not completely build yet. i'm publishing it for internal use purposes, however you are more than welcome to use it on your own. this package is designed for processing text data fetched from twitter to feed turkish nlp models. if you have any questions or concerns you can reach me from emskaplann@gmail.com.
 
 ## installation
-on your terminal download the package to your local workspace via pip:
+on your terminal download the package to your local workspace via pip:  
 `pip install turkish-twitter-preprocess`
 
-after having the package in your workspace you can simply import it to use it right away!
+after having the package in your workspace you can simply import it to use it right away!  
 `import ttp`  
 `stopwords = ['with', 'are', ...]`  
 `ttp.preprocess_sentence("Example sentence!", stopwords)`  
