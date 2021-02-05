@@ -10,9 +10,9 @@ on your terminal download the package to your local workspace via pip:
 `pip install turkish-twitter-preprocess`
 
 after having the package in your workspace you can simply import it to use it right away!
-`import ttp`
-`stopwords = ['with', 'are', ...]`
-`ttp.preprocess_sentence("Example sentence!", stopwords)`
+`import ttp`  
+`stopwords = ['with', 'are', ...]`  
+`ttp.preprocess_sentence("Example sentence!", stopwords)`  
 
 ## functions you can use with the package
 
